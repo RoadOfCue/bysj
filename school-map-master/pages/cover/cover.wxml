@@ -1,0 +1,10 @@
+<!--pages/cover/cover.wxml-->
+<view class="coverContainer" >
+  <view class="logo" animation="{{slideUp}}">
+      <image mode='aspectFit' src="/img/cover-logo.png" />
+  </view>
+  <view class="text" animation="{{slideUp}}">
+      <image mode='aspectFit' src="/img/cover-text.png" />
+  </view>
+  <image :animation="slideShow" class="bg" src="/img/cover-bg.jpg" />
+</view>

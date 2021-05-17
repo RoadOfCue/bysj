@@ -1,0 +1,32 @@
+/* pages/map/map.wxss */
+page{
+  background: #f8f8f8;
+}
+.mapTop{
+  width: 100%;
+  height: 460rpx;
+  background: -webkit-linear-gradient(left,#0070b1,#079df2,#9edbff);
+  border-radius: 0 0 10% 10%;
+}
+.mapTitle{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.mapPic{
+  position: absolute;
+  top: 26%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  width: 80%;
+  height: 70%;
+  border-radius: 15rpx;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  opacity: 0;
+}
+.mapPic image{
+  width: 100%;
+  height: 100%;
+}

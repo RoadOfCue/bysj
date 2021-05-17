@@ -1,0 +1,7 @@
+<!--pages/map/map.wxml-->
+<view class="mapTop">
+    <image class="mapTitle" mode="aspectFit" src="/img/map-title.png" />
+</view>
+<view class="mapPic" animation="{{slideUp}}">
+    <image bindtap="previewImage" src="/img/map.png" />
+</view>
